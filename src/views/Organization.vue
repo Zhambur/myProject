@@ -479,7 +479,7 @@ export default {
             fontSize: 18,
             fontWeight: "bold",
           },
-          subtext: "基于 전체邮件数据分析",
+          subtext: "基于邮件数据分析",
         },
         tooltip: {
           trigger: "item",
