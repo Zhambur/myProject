@@ -1,10 +1,14 @@
 [
     {
-        "department": "研发部",
-        "count": 3489
+        "department": "人力资源部",
+        "highRisk": 133,
+        "mediumRisk": 156,
+        "lowRisk": 100
     },
     {
-        "department": "人力资源部",
-        "count": 389
+        "department": "研发部",
+        "highRisk": 1026,
+        "mediumRisk": 1484,
+        "lowRisk": 979
     }
 ]

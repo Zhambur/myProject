@@ -555,14 +555,46 @@ def main():
     tcp_protocol_list = sorted([{'protocol': p, 'count': c} for p,c in tcp_protocol_distribution.items()], key=lambda x: x['count'], reverse=True)
 
     # 部门异常活动统计 和 总异常数
-    department_abnormal_counts = Counter()
+    department_abnormal_counts = {}
     total_abnormal_activities_count = 0
+    
+    # 初始化每个部门的计数器
+    for dept in department_names:
+        department_abnormal_counts[dept] = {
+            'department': dept,
+            'highRisk': 0,
+            'mediumRisk': 0,
+            'lowRisk': 0
+        }
+    
     for emp_id, activities in employee_abnormal_activities.items():
         total_abnormal_activities_count += len(activities)
         if emp_id in employee_to_dept:
-            department_abnormal_counts[employee_to_dept[emp_id]] += len(activities)
+            dept = employee_to_dept[emp_id]
+            for activity in activities:
+                # 根据活动类型和时间判断风险等级
+                risk_level = assess_risk_level(activity)
+                if risk_level == 'high':
+                    department_abnormal_counts[dept]['highRisk'] += 1
+                elif risk_level == 'medium':
+                    department_abnormal_counts[dept]['mediumRisk'] += 1
+                else:
+                    department_abnormal_counts[dept]['lowRisk'] += 1
+
+    # 转换为列表格式
+    department_abnormal_counts_list = list(department_abnormal_counts.values())
+    
+    # 只保留有异常活动的部门
+    department_abnormal_counts_list = [
+        dept for dept in department_abnormal_counts_list 
+        if dept['highRisk'] > 0 or dept['mediumRisk'] > 0 or dept['lowRisk'] > 0
+    ]
+
     global_stats['totalAbnormalActivities'] = total_abnormal_activities_count
-    department_abnormal_counts_list = sorted([{'department': d, 'count': c} for d,c in department_abnormal_counts.items()], key=lambda x:x['count'], reverse=True)
+
+    # 保存部门异常统计数据
+    with open(os.path.join(OUTPUT_DIR, 'department_abnormal_counts.json'), 'w', encoding='utf-8') as f:
+        json.dump(department_abnormal_counts_list, f, ensure_ascii=False, indent=2)
 
     # 最近异常事件
     all_flat_abnormal_activities = []
@@ -669,6 +701,43 @@ def main():
         print(f"保存JSON文件时出错: {e}")
 
     print("基础数据分析和异常检测完成。")
+
+def assess_risk_level(activity):
+    """
+    评估活动的风险等级
+    """
+    # 获取活动的时间
+    activity_time = activity.get('timestamp', '')
+    activity_hour = int(activity_time.split(' ')[1].split(':')[0]) if activity_time else 0
+    
+    # 获取活动的类型和其他特征
+    activity_type = activity.get('type', '')
+    protocol = activity.get('rawEvent', {}).get('proto', '')
+    dport = activity.get('rawEvent', {}).get('dport', 0)
+    
+    # 判断是否是深夜时间（22:00-06:00）
+    is_deep_night = activity_hour >= 22 or activity_hour <= 6
+    
+    # 高风险条件
+    if any([
+        activity_type in ['数据泄露', '异常通信'],
+        (protocol in ['ftp', 'sftp'] and is_deep_night),
+        dport in [22, 3389],  # SSH和RDP端口
+        '敏感文件' in str(activity)
+    ]):
+        return 'high'
+    
+    # 中风险条件
+    elif any([
+        activity_type in ['异常登录', '非常规操作'],
+        protocol in ['mysql', 'postgresql', 'tds'],
+        is_deep_night,
+        '未授权' in str(activity)
+    ]):
+        return 'medium'
+    
+    # 其他情况为低风险
+    return 'low'
 
 if __name__ == '__main__':
     main() 

@@ -548,9 +548,6 @@ export default {
       const departmentNames = this.departmentAbnormalCounts.map(
         (item) => item.department
       );
-      const abnormalCounts = this.departmentAbnormalCounts.map(
-        (item) => item.count
-      );
 
       const option = {
         tooltip: {
@@ -580,7 +577,10 @@ export default {
           {
             name: "高风险",
             type: "bar",
-            data: abnormalCounts.map((count) => (count > 0 ? count : 0)),
+            stack: "total",
+            data: this.departmentAbnormalCounts.map(
+              (item) => item.highRisk || 0
+            ),
             itemStyle: {
               color: "#F56C6C",
             },
@@ -588,7 +588,10 @@ export default {
           {
             name: "中风险",
             type: "bar",
-            data: abnormalCounts.map((count) => (count > 0 ? count : 0)),
+            stack: "total",
+            data: this.departmentAbnormalCounts.map(
+              (item) => item.mediumRisk || 0
+            ),
             itemStyle: {
               color: "#E6A23C",
             },
@@ -596,7 +599,10 @@ export default {
           {
             name: "低风险",
             type: "bar",
-            data: abnormalCounts.map((count) => (count > 0 ? count : 0)),
+            stack: "total",
+            data: this.departmentAbnormalCounts.map(
+              (item) => item.lowRisk || 0
+            ),
             itemStyle: {
               color: "#909399",
             },
