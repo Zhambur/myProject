@@ -1,0 +1,17 @@
+[
+    {
+        "source": "研发部",
+        "target": "财务部",
+        "value": 460
+    },
+    {
+        "source": "人力资源部",
+        "target": "研发部",
+        "value": 7542
+    },
+    {
+        "source": "人力资源部",
+        "target": "财务部",
+        "value": 14
+    }
+]

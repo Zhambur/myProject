@@ -1,0 +1,30 @@
+[
+  {
+    "name": "PostgreSQL服务器",
+    "count": 1547
+  },
+  {
+    "name": "MySQL服务器",
+    "count": 892
+  },
+  {
+    "name": "MongoDB服务器",
+    "count": 743
+  },
+  {
+    "name": "SQL Server",
+    "count": 623
+  },
+  {
+    "name": "FTP服务器",
+    "count": 1234
+  },
+  {
+    "name": "SSH服务器",
+    "count": 856
+  },
+  {
+    "name": "SFTP服务器",
+    "count": 445
+  }
+]

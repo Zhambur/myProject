@@ -1,0 +1,92 @@
+{
+    "allDay": [
+        {
+            "category": "其他",
+            "count": 155329
+        },
+        {
+            "category": "搜索引擎",
+            "count": 4717
+        },
+        {
+            "category": "新闻媒体",
+            "count": 2676
+        },
+        {
+            "category": "购物网站",
+            "count": 1769
+        },
+        {
+            "category": "技术社区",
+            "count": 773
+        },
+        {
+            "category": "娱乐视频",
+            "count": 114
+        },
+        {
+            "category": "工作相关",
+            "count": 83
+        }
+    ],
+    "workHours": [
+        {
+            "category": "其他",
+            "count": 147275
+        },
+        {
+            "category": "搜索引擎",
+            "count": 4396
+        },
+        {
+            "category": "新闻媒体",
+            "count": 2496
+        },
+        {
+            "category": "购物网站",
+            "count": 1598
+        },
+        {
+            "category": "技术社区",
+            "count": 729
+        },
+        {
+            "category": "娱乐视频",
+            "count": 109
+        },
+        {
+            "category": "工作相关",
+            "count": 75
+        }
+    ],
+    "afterHours": [
+        {
+            "category": "其他",
+            "count": 8054
+        },
+        {
+            "category": "搜索引擎",
+            "count": 321
+        },
+        {
+            "category": "新闻媒体",
+            "count": 180
+        },
+        {
+            "category": "购物网站",
+            "count": 171
+        },
+        {
+            "category": "技术社区",
+            "count": 44
+        },
+        {
+            "category": "工作相关",
+            "count": 8
+        },
+        {
+            "category": "娱乐视频",
+            "count": 5
+        }
+    ]
+}

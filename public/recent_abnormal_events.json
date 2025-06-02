@@ -1,0 +1,382 @@
+[
+    {
+        "employeeId": "1450",
+        "department": "研发部",
+        "timestamp": "2017-11-30 22:40:45",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 22:40) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "tds",
+            "dip": "10.50.50.28",
+            "dport": 54238,
+            "sip": "10.64.105.220",
+            "sport": 2248,
+            "state": "success",
+            "time": "2017-11-30 22:40:45",
+            "user": "1450"
+        }
+    },
+    {
+        "employeeId": "1175",
+        "department": "研发部",
+        "timestamp": "2017-11-30 22:40:31",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 22:40) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "mysql",
+            "dip": "10.50.50.31",
+            "dport": 4443,
+            "sip": "10.64.105.10",
+            "sport": 2574,
+            "state": "success",
+            "time": "2017-11-30 22:40:31",
+            "user": "1175"
+        }
+    },
+    {
+        "employeeId": "1145",
+        "department": "研发部",
+        "timestamp": "2017-11-30 22:05:49",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 22:05) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "mongodb",
+            "dip": "10.50.50.38",
+            "dport": 8005,
+            "sip": "10.64.105.107",
+            "sport": 2528,
+            "state": "success",
+            "time": "2017-11-30 22:05:49",
+            "user": "1145"
+        }
+    },
+    {
+        "employeeId": "1356",
+        "department": "研发部",
+        "timestamp": "2017-11-30 22:05:32",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 22:05) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "ftp",
+            "dip": "10.50.50.26",
+            "dport": 21,
+            "sip": "10.64.106.41",
+            "sport": 3001,
+            "state": "success",
+            "time": "2017-11-30 22:05:32",
+            "user": "1356"
+        }
+    },
+    {
+        "employeeId": "1450",
+        "department": "研发部",
+        "timestamp": "2017-11-30 22:05:01",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 22:05) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "sftp",
+            "dip": "10.50.50.26",
+            "dport": 22,
+            "sip": "10.64.105.220",
+            "sport": 2248,
+            "state": "success",
+            "time": "2017-11-30 22:05:01",
+            "user": "1450"
+        }
+    },
+    {
+        "employeeId": "1145",
+        "department": "研发部",
+        "timestamp": "2017-11-30 22:03:58",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 22:03) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "tds",
+            "dip": "10.50.50.26",
+            "dport": 54238,
+            "sip": "10.64.105.107",
+            "sport": 2528,
+            "state": "success",
+            "time": "2017-11-30 22:03:58",
+            "user": "1145"
+        }
+    },
+    {
+        "employeeId": "1450",
+        "department": "研发部",
+        "timestamp": "2017-11-30 21:55:42",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 21:55) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "mongodb",
+            "dip": "10.50.50.26",
+            "dport": 8005,
+            "sip": "10.64.105.220",
+            "sport": 2248,
+            "state": "success",
+            "time": "2017-11-30 21:55:42",
+            "user": "1450"
+        }
+    },
+    {
+        "employeeId": "1183",
+        "department": "研发部",
+        "timestamp": "2017-11-30 21:53:29",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 21:53) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "tds",
+            "dip": "10.50.50.29",
+            "dport": 54238,
+            "sip": "10.64.105.165",
+            "sport": 2058,
+            "state": "success",
+            "time": "2017-11-30 21:53:29",
+            "user": "1183"
+        }
+    },
+    {
+        "employeeId": "1145",
+        "department": "研发部",
+        "timestamp": "2017-11-30 21:52:53",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 21:52) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "mongodb",
+            "dip": "10.50.50.43",
+            "dport": 8005,
+            "sip": "10.64.105.107",
+            "sport": 2528,
+            "state": "success",
+            "time": "2017-11-30 21:52:53",
+            "user": "1145"
+        }
+    },
+    {
+        "employeeId": "1130",
+        "department": "研发部",
+        "timestamp": "2017-11-30 21:49:42",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 21:49) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "ftp",
+            "dip": "10.50.50.37",
+            "dport": 21,
+            "sip": "10.64.105.207",
+            "sport": 2367,
+            "state": "success",
+            "time": "2017-11-30 21:49:42",
+            "user": "1130"
+        }
+    },
+    {
+        "employeeId": "1079",
+        "department": "人力资源部",
+        "timestamp": "2017-11-30 21:47:24",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 21:47) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "mysql",
+            "dip": "10.50.50.28",
+            "dport": 4443,
+            "sip": "10.64.105.152",
+            "sport": 2958,
+            "state": "success",
+            "time": "2017-11-30 21:47:24",
+            "user": "1079"
+        }
+    },
+    {
+        "employeeId": "1175",
+        "department": "研发部",
+        "timestamp": "2017-11-30 21:43:10",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 21:43) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "mysql",
+            "dip": "10.50.50.49",
+            "dport": 4443,
+            "sip": "10.64.105.10",
+            "sport": 2574,
+            "state": "success",
+            "time": "2017-11-30 21:43:10",
+            "user": "1175"
+        }
+    },
+    {
+        "employeeId": "1348",
+        "department": "研发部",
+        "timestamp": "2017-11-30 21:42:36",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 21:42) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "ssh",
+            "dip": "10.50.50.26",
+            "dport": 22,
+            "sip": "10.64.105.163",
+            "sport": 3087,
+            "state": "success",
+            "time": "2017-11-30 21:42:36",
+            "user": "1348"
+        }
+    },
+    {
+        "employeeId": "1174",
+        "department": "研发部",
+        "timestamp": "2017-11-30 21:37:39",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 21:37) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "postgresql",
+            "dip": "10.50.50.31",
+            "dport": 5432,
+            "sip": "10.64.106.44",
+            "sport": 3086,
+            "state": "error",
+            "time": "2017-11-30 21:37:39",
+            "user": "1174"
+        }
+    },
+    {
+        "employeeId": "1474",
+        "department": "研发部",
+        "timestamp": "2017-11-30 21:32:53",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 21:32) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "ssh",
+            "dip": "10.50.50.29",
+            "dport": 22,
+            "sip": "10.64.105.17",
+            "sport": 2667,
+            "state": "success",
+            "time": "2017-11-30 21:32:53",
+            "user": "1474"
+        }
+    },
+    {
+        "employeeId": "1351",
+        "department": "研发部",
+        "timestamp": "2017-11-30 21:29:25",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 21:29) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "mysql",
+            "dip": "10.50.50.29",
+            "dport": 4443,
+            "sip": "10.64.105.161",
+            "sport": 2774,
+            "state": "success",
+            "time": "2017-11-30 21:29:25",
+            "user": "1351"
+        }
+    },
+    {
+        "employeeId": "1175",
+        "department": "研发部",
+        "timestamp": "2017-11-30 21:29:01",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 21:29) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "mysql",
+            "dip": "10.50.50.28",
+            "dport": 4443,
+            "sip": "10.64.105.10",
+            "sport": 2574,
+            "state": "success",
+            "time": "2017-11-30 21:29:01",
+            "user": "1175"
+        }
+    },
+    {
+        "employeeId": "1207",
+        "department": "人力资源部",
+        "timestamp": "2017-11-30 21:27:19",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 21:27) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "ftp",
+            "dip": "10.50.50.31",
+            "dport": 21,
+            "sip": "10.64.105.129",
+            "sport": 3170,
+            "state": "success",
+            "time": "2017-11-30 21:27:19",
+            "user": "1207"
+        }
+    },
+    {
+        "employeeId": "1351",
+        "department": "研发部",
+        "timestamp": "2017-11-30 21:24:11",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 21:24) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "sftp",
+            "dip": "10.50.50.29",
+            "dport": 22,
+            "sip": "10.64.105.161",
+            "sport": 2774,
+            "state": "success",
+            "time": "2017-11-30 21:24:11",
+            "user": "1351"
+        }
+    },
+    {
+        "employeeId": "1274",
+        "department": "研发部",
+        "timestamp": "2017-11-30 21:21:37",
+        "type": "非工作时间活动",
+        "description": "在非工作时间 (Thursday 21:21) 有登录相关活动。",
+        "level": "低",
+        "sourceFile": "public/ITD-2018 Data Set\\2017-11-30\\login.csv",
+        "rawEvent": {
+            "proto": "mongodb",
+            "dip": "10.50.50.29",
+            "dport": 8005,
+            "sip": "10.64.105.56",
+            "sport": 3385,
+            "state": "success",
+            "time": "2017-11-30 21:21:37",
+            "user": "1274"
+        }
+    }
+]

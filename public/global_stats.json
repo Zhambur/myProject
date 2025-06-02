@@ -1,0 +1,9 @@
+{
+    "totalEmployees": 305,
+    "totalDepartments": 3,
+    "totalEmailCount": 45269,
+    "totalLoginEvents": 65684,
+    "totalWeblogEvents": 165461,
+    "totalTcpLogEvents": 1179818,
+    "totalAbnormalActivities": 3878
+}

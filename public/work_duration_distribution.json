@@ -1,0 +1,54 @@
+[
+    {
+        "durationRange": "2-3小时",
+        "count": 1
+    },
+    {
+        "durationRange": "3-4小时",
+        "count": 13
+    },
+    {
+        "durationRange": "4-5小时",
+        "count": 37
+    },
+    {
+        "durationRange": "5-6小时",
+        "count": 65
+    },
+    {
+        "durationRange": "6-7小时",
+        "count": 125
+    },
+    {
+        "durationRange": "7-8小时",
+        "count": 297
+    },
+    {
+        "durationRange": "8-9小时",
+        "count": 837
+    },
+    {
+        "durationRange": "9-10小时",
+        "count": 1709
+    },
+    {
+        "durationRange": "10-11小时",
+        "count": 1344
+    },
+    {
+        "durationRange": "11-12小时",
+        "count": 739
+    },
+    {
+        "durationRange": "12-13小时",
+        "count": 370
+    },
+    {
+        "durationRange": "13-14小时",
+        "count": 76
+    },
+    {
+        "durationRange": "14-15小时",
+        "count": 9
+    }
+]

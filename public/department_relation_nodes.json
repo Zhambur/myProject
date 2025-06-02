@@ -1,0 +1,20 @@
+[
+    {
+        "id": "财务部",
+        "name": "财务部",
+        "value": 4330,
+        "memberCount": 49
+    },
+    {
+        "id": "研发部",
+        "name": "研发部",
+        "value": 9278,
+        "memberCount": 226
+    },
+    {
+        "id": "人力资源部",
+        "name": "人力资源部",
+        "value": 5085,
+        "memberCount": 30
+    }
+]

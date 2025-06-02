@@ -1,0 +1,38 @@
+{
+  "name": "threat-intelligence-analysis",
+  "version": "1.0.0",
+  "description": "内部威胁情报分析可视化系统",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "core-js": "^3.36.0",
+    "echarts": "^5.4.3",
+    "echarts-wordcloud": "2.1.0",
+    "element-ui": "^2.15.14",
+    "papaparse": "^5.5.2",
+    "vue": "^2.7.16",
+    "vue-router": "^3.6.5",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.23.10",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-plugin-router": "~5.0.8",
+    "@vue/cli-plugin-vuex": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.22.0",
+    "sass": "^1.71.1",
+    "sass-loader": "^13.3.3",
+    "vue-template-compiler": "^2.7.16"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

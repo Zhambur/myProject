@@ -1,0 +1,315 @@
+[
+  {
+    "department": "研发部",
+    "checkInDistribution": [
+      {
+        "timeBin": "07:00",
+        "count": 55
+      },
+      {
+        "timeBin": "07:30",
+        "count": 219
+      },
+      {
+        "timeBin": "08:00",
+        "count": 303
+      },
+      {
+        "timeBin": "08:30",
+        "count": 1132
+      },
+      {
+        "timeBin": "09:00",
+        "count": 1399
+      },
+      {
+        "timeBin": "09:30",
+        "count": 892
+      },
+      {
+        "timeBin": "10:00",
+        "count": 791
+      },
+      {
+        "timeBin": "11:00",
+        "count": 100
+      },
+      {
+        "timeBin": "11:30",
+        "count": 77
+      },
+      {
+        "timeBin": "12:00",
+        "count": 33
+      },
+      {
+        "timeBin": "12:30",
+        "count": 5
+      }
+    ],
+    "checkOutDistribution": [
+      {
+        "timeBin": "12:00",
+        "count": 3
+      },
+      {
+        "timeBin": "12:30",
+        "count": 2
+      },
+      {
+        "timeBin": "13:30",
+        "count": 2
+      },
+      {
+        "timeBin": "14:00",
+        "count": 9
+      },
+      {
+        "timeBin": "14:30",
+        "count": 18
+      },
+      {
+        "timeBin": "15:00",
+        "count": 26
+      },
+      {
+        "timeBin": "15:30",
+        "count": 47
+      },
+      {
+        "timeBin": "16:00",
+        "count": 72
+      },
+      {
+        "timeBin": "16:30",
+        "count": 100
+      },
+      {
+        "timeBin": "17:00",
+        "count": 200
+      },
+      {
+        "timeBin": "17:30",
+        "count": 358
+      },
+      {
+        "timeBin": "18:00",
+        "count": 655
+      },
+      {
+        "timeBin": "18:30",
+        "count": 810
+      },
+      {
+        "timeBin": "19:00",
+        "count": 803
+      },
+      {
+        "timeBin": "19:30",
+        "count": 593
+      },
+      {
+        "timeBin": "20:00",
+        "count": 442
+      },
+      {
+        "timeBin": "20:30",
+        "count": 352
+      },
+      {
+        "timeBin": "21:00",
+        "count": 262
+      },
+      {
+        "timeBin": "21:30",
+        "count": 149
+      },
+      {
+        "timeBin": "22:00",
+        "count": 66
+      },
+      {
+        "timeBin": "22:30",
+        "count": 30
+      },
+      {
+        "timeBin": "23:00",
+        "count": 6
+      },
+      {
+        "timeBin": "23:30",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "department": "人力资源部",
+    "checkInDistribution": [
+      {
+        "timeBin": "07:30",
+        "count": 6
+      },
+      {
+        "timeBin": "08:00",
+        "count": 34
+      },
+      {
+        "timeBin": "08:30",
+        "count": 188
+      },
+      {
+        "timeBin": "09:00",
+        "count": 125
+      },
+      {
+        "timeBin": "09:30",
+        "count": 140
+      },
+      {
+        "timeBin": "10:00",
+        "count": 87
+      },
+      {
+        "timeBin": "11:00",
+        "count": 17
+      },
+      {
+        "timeBin": "11:30",
+        "count": 10
+      },
+      {
+        "timeBin": "12:00",
+        "count": 9
+      }
+    ],
+    "checkOutDistribution": [
+      {
+        "timeBin": "11:00",
+        "count": 1
+      },
+      {
+        "timeBin": "12:00",
+        "count": 1
+      },
+      {
+        "timeBin": "13:30",
+        "count": 1
+      },
+      {
+        "timeBin": "14:00",
+        "count": 6
+      },
+      {
+        "timeBin": "14:30",
+        "count": 7
+      },
+      {
+        "timeBin": "15:00",
+        "count": 5
+      },
+      {
+        "timeBin": "15:30",
+        "count": 9
+      },
+      {
+        "timeBin": "16:00",
+        "count": 11
+      },
+      {
+        "timeBin": "16:30",
+        "count": 17
+      },
+      {
+        "timeBin": "17:00",
+        "count": 19
+      },
+      {
+        "timeBin": "17:30",
+        "count": 33
+      },
+      {
+        "timeBin": "18:00",
+        "count": 70
+      },
+      {
+        "timeBin": "18:30",
+        "count": 78
+      },
+      {
+        "timeBin": "19:00",
+        "count": 92
+      },
+      {
+        "timeBin": "19:30",
+        "count": 78
+      },
+      {
+        "timeBin": "20:00",
+        "count": 62
+      },
+      {
+        "timeBin": "20:30",
+        "count": 46
+      },
+      {
+        "timeBin": "21:00",
+        "count": 34
+      },
+      {
+        "timeBin": "21:30",
+        "count": 20
+      },
+      {
+        "timeBin": "22:00",
+        "count": 18
+      },
+      {
+        "timeBin": "22:30",
+        "count": 7
+      },
+      {
+        "timeBin": "23:00",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "department": "财务部",
+    "checkInDistribution": [
+      {
+        "timeBin": "07:30",
+        "count": 8
+      },
+      {
+        "timeBin": "08:00",
+        "count": 25
+      },
+      {
+        "timeBin": "08:30",
+        "count": 12
+      },
+      {
+        "timeBin": "09:00",
+        "count": 4
+      }
+    ],
+    "checkOutDistribution": [
+      {
+        "timeBin": "17:00",
+        "count": 15
+      },
+      {
+        "timeBin": "17:30",
+        "count": 20
+      },
+      {
+        "timeBin": "18:00",
+        "count": 10
+      },
+      {
+        "timeBin": "18:30",
+        "count": 4
+      }
+    ]
+  }
+]

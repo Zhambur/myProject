@@ -1,0 +1,14 @@
+[
+    {
+        "department": "研发部",
+        "emailCount": 5040
+    },
+    {
+        "department": "财务部",
+        "emailCount": 2808
+    },
+    {
+        "department": "人力资源部",
+        "emailCount": 588
+    }
+]

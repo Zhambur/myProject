@@ -1,0 +1,38 @@
+[
+    {
+        "protocol": "HTTP",
+        "count": 907633
+    },
+    {
+        "protocol": "SSH",
+        "count": 88482
+    },
+    {
+        "protocol": "SMTP",
+        "count": 45315
+    },
+    {
+        "protocol": "MONGODB",
+        "count": 23505
+    },
+    {
+        "protocol": "MYSQL",
+        "count": 23305
+    },
+    {
+        "protocol": "TDS",
+        "count": 23297
+    },
+    {
+        "protocol": "SFTP",
+        "count": 23018
+    },
+    {
+        "protocol": "POSTGRESQL",
+        "count": 22671
+    },
+    {
+        "protocol": "FTP",
+        "count": 22592
+    }
+]
